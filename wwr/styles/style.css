@@ -1,10 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Roboto:ital,wght@1,300&display=swap');
+
 nav a{text-align: center;
     color: #0081a7;
     text-decoration: none;
+    padding: 35px;
 
 }
 
 main section{text-align: center;
+}
+
+main section img{
+    box-sizing: border-box;
 }
 
 
@@ -35,6 +42,8 @@ h4{text-align: center;
 
 body {
     background-color: white;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -48,6 +57,14 @@ nav a:hover {
 
 .home-title{
     color: #0081a7;
+    font-family: 'Courgette', 'Roboto' ,sans-serif ;
+    font-size: 2em;
+    margin-top: 15px;
+    
+}
+
+h2{margin: 0;
+
 }
 
 
@@ -55,8 +72,15 @@ nav a:hover {
 .book, .join{background-color: brown;
     color: #0081a7;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 10px;
+    border-radius: 5px ;
 }
 
+.card-img{border: 10px solid #00afb9;
+
+
+}
 .book:hover, .join:hover{background-color: black;
     color: #0081a7;
 }
@@ -66,6 +90,8 @@ nav a:hover {
 }
 
 .msg{background-color: #00afb9;
+    line-height: 1.5em;
+    padding: 35px;
 
 }
 
@@ -73,22 +99,30 @@ nav a:hover {
     ;}
 
 .msg p {color: white;
+    padding-bottom: 15px;
 }
 
 footer {background-color: #00afb9;
     color: white;
+    margin-top: 200px;
 
 }
 
 footer a{color: white;
     text-decoration: none;
+    padding: 15px 30px;
 }
 
 footer a:hover{color: white;
 }
 
+footer .social img{
+    padding-top: 10px;
+}
+
 .icon{ width: 50px;
     height: 10;
+    padding-top: 15px;
 }
 
 #hero-img{width: 100;
@@ -98,3 +132,10 @@ footer a:hover{color: white;
     height: 10;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
+.river-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
