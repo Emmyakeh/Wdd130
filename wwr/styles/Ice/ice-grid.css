@@ -1,0 +1,10 @@
+article { 
+    background-color: brown;
+
+}
+
+section {
+    display: grid;
+    gap: 10px;
+
+}
