@@ -153,33 +153,38 @@
   grid-column: 1/3;
 } 
 /* Activity 6 styles */ 
-.content6 { display: block
+.content6 { display: grid;
+  grid-template-columns: 50px 50px 50px 50px;
+
   /* This is the parent of the activity 6 boxes. */
 }
 .red6 {
-  width: 55%; 
-  height: 170px; 
+  width: 100px; 
+  height: 100px; 
+  grid-column:1/2 ;
+  grid-row: 1/3 ;
   background-color: red; 
 } 
 .green6 {
   width: 100px; 
   height: 100px; 
+ /* grid-column: 1/3 ;
+  grid-row: 1/2 ; */
   background-color: rgb(16, 146, 16); 
-  margin-top: 80;
 
 } 
 .yellow6 {
-  width: 150px; 
-  height: 300px; 
-  margin-top: -620;
-  margin-left: 570px;
+  width: 100px; 
+  height: 100px;
+ /* grid-column: 1/4 ; 
+  grid-row: 1/3 ; */
   background-color: gold; 
 } 
 .blue6 {
-  width: 66%; 
-  height: 310px; 
-  margin-top: -460px;
-  margin-left: 60px;
+  width: 100px; 
+  height: 100px;
+  grid-column: 1/2 ;
+  grid-row: 2/4;
   background-color: blue; 
 } 
 
