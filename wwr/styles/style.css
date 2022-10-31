@@ -34,6 +34,7 @@ h4{text-align: center;
 }
 
 #background { height: 725px;
+
     margin-top: 100px;
 }
 
@@ -105,7 +106,7 @@ h2{ margin: 0;
 }
 
 .card-img:hover{
-    opacity: .6;
+    opacity: -0.2;
     transform: scale(1.1);
 }
 
